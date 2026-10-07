@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7eee2">
+    <title>Buat Anjo — semangat ya!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <a class="brand" href="#beranda" aria-label="Kembali ke beranda">catatan kecil <span>✦</span></a>
+        <a class="top-link" href="#pesan">langsung ke pesan <span aria-hidden="true">↓</span></a>
+    </header>
+
+    <main>
+        <section class="hero" id="beranda" aria-labelledby="judul">
+            <div class="hero-copy">
+                <p class="eyebrow">BUAT ANJO · DARI ACANTIK</p>
+                <h1 id="judul">Hari ini mungkin capek,<br><span>tapi kamu hebat.</span></h1>
+                <p class="hero-description">Sedikit catatan kecil buat nemenin hari-harimu. Baca pelan-pelan, ya!</p>
+                <a class="button button-primary" href="#pesan">Baca pesannya <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <span class="sun"></span>
+                <span class="spark spark-one">✦</span>
+                <span class="spark spark-two">✳</span>
+                <span class="bear">🧸</span>
+                <span class="art-caption">semangat terus!</span>
+            </div>
+            <div class="scroll-note" aria-hidden="true"><span></span> GULIR PELAN-PELAN</div>
+        </section>
+
+        <section class="message-section" id="pesan" aria-labelledby="pesan-title">
+            <div class="section-heading">
+                <p class="eyebrow">PENGINGAT KECIL</p>
+                <h2 id="pesan-title">Buat kamu yang lagi berjuang</h2>
+                <p>Nggak harus jadi sempurna. Cukup terus coba dan jadi versi terbaikmu.</p>
+            </div>
+
+            <div class="note-grid">
+                <article class="note-card note-yellow">
+                    <span class="note-number">01</span>
+                    <span class="note-icon" aria-hidden="true">☀️</span>
+                    <h3>Semangat, ya!</h3>
+                    <p>Semangat jamett!! Kamu pasti bisa lewatin hari ini 💪🏻</p>
+                </article>
+                <article class="note-card note-blue">
+                    <span class="note-number">02</span>
+                    <span class="note-icon" aria-hidden="true">📚</span>
+                    <h3>Jangan bolos</h3>
+                    <p>Rajin sekolahnya, biar cita-citamu makin dekat. Jangan suka bolos 😭</p>
+                </article>
+                <article class="note-card note-peach">
+                    <span class="note-number">03</span>
+                    <span class="note-icon" aria-hidden="true">🌱</span>
+                    <h3>Tumbuh pelan-pelan</h3>
+                    <p>Nggak apa-apa salah, yang penting belajar dan coba lagi.</p>
+                </article>
+                <article class="note-card note-lilac">
+                    <span class="note-number">04</span>
+                    <span class="note-icon" aria-hidden="true">🙂</span>
+                    <h3>Jadi anak baik</h3>
+                    <p>Jangan nakal, jangan bikin orang pusing wkwk. Pokoknya jadi anak baik ajaa 🫵🏻</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="surprise-section" aria-labelledby="surprise-title">
+            <div class="surprise-card">
+                <div class="surprise-copy">
+                    <p class="eyebrow">ADA SATU LAGI...</p>
+                    <h2 id="surprise-title">Mau pesan kejutan?</h2>
+                    <p id="surprise-message" class="surprise-message" aria-live="polite">Pencet tombolnya, siapa tahu kamu butuh dengar ini hari ini.</p>
+                    <button class="button button-dark" id="surprise-button" type="button">Buka pesan kejutan <span aria-hidden="true">↗</span></button>
+                </div>
+                <div class="surprise-sticker" aria-hidden="true">KAMU<br>BISA!<span>✦</span></div>
+            </div>
+        </section>
+
+        <section class="music-section" aria-label="Musik penyemangat">
+            <span class="music-icon" aria-hidden="true">♫</span>
+            <div class="music-copy">
+                <p class="eyebrow">TEMANIN HARI INI</p>
+                <h2>Dengerin lagu dulu?</h2>
+                <p>Putar atau jeda kapan aja.</p>
+            </div>
+            <audio id="lagu" src="HIVI - Remaja (Official Lyric Video) (1).mp3" preload="none"></audio>
+            <button class="button button-outline" id="music-button" type="button" aria-pressed="false">▶ Putar lagu</button>
+        </section>
+
+        <footer class="footer">
+            <p>Jangan lupa senyum hari ini :)</p>
+            <a href="#beranda">Balik ke atas ↑</a>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
